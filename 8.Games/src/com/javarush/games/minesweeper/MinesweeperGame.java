@@ -150,7 +150,7 @@ public class MinesweeperGame extends Game
 
     private void win()
     {   isGameStopped = true;
-        showMessageDialog(Color.GREEN, "YOU'VE WONT\nYour score is " + score, Color.BLACK, 30);
+        showMessageDialog(Color.GREEN, "YOU'VE WON\nYour score is " + score, Color.BLACK, 30);
     }
 
     private void restart()
